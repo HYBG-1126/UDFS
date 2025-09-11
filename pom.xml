@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.gbaseHD</groupId>
+    <groupId>com.hybg</groupId>
     <artifactId>UDFS</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -16,6 +16,7 @@
         <hive.version>3.1.3</hive.version>
         <commons-codec.version>1.15</commons-codec.version>
     </properties>
+
 
     <dependencies>
         <!-- 国密解密依赖以下3个包，commons-codec用来将字节数组转string用的 -->
@@ -115,6 +116,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
