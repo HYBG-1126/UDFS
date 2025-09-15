@@ -1,13 +1,15 @@
 package com.gbaseHD;
 
 
+import org.apache.hadoop.hive.ql.exec.UDF;
+
 import java.util.Random;
 
 /**
  * 字符打乱 UDF 函数
  * 该函数用于将输入字符串的字符顺序随机打乱
  */
-public class _034_CharacterScrambling {
+public class _034_CharacterScrambling extends UDF {
     
     /**
      * 打乱字符串字符顺序

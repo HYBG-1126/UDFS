@@ -1,6 +1,8 @@
 package com.gbaseHD;
 
-public class _005_BlockBack {
+import org.apache.hadoop.hive.ql.exec.UDF;
+
+public class _005_BlockBack extends UDF {
     // 默认使用@作为特殊字符的方法
     public String evaluate(String data) {
         // 调用带默认参数的方法，默认特殊字符为@

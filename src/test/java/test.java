@@ -130,6 +130,26 @@ public class test {
 
 
     @Test
+    public void test16() {
+        _016_CoverSl testInstance = new _016_CoverSl();
+
+        System.out.println(testInstance.evaluate("浙江省杭州市西湖区胡同口", 1,2, 3));
+
+    }
+
+
+
+    @Test
+    public void test17() {
+        _017_MaskFromSl testInstance = new _017_MaskFromSl();
+
+        System.out.println(testInstance.evaluate("浙江省杭州市西湖区胡同口", 2,3, 3));
+
+    }
+
+
+
+    @Test
     public void test28() {
         _028_SM3 testInstance = new _028_SM3();
 
